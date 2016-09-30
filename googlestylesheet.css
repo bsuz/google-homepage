@@ -1,0 +1,95 @@
+body{
+overflow: hidden
+}
+
+a {
+	color: #737373;
+	font-family: Arial;
+	font-size: 14px;
+	text-decoration: none;
+	}
+
+a:hover {
+	text-decoration: underline;
+	}
+
+#top {
+	position: fixed;
+	word-spacing: 10px;
+	padding: 1%;
+	color: #737373;
+	right: 0;
+	text-align: center;
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+#middle {
+position: absolute;
+width: 100%;
+top: 35%;
+}
+
+.button {
+	background-color: #edeff2;
+	color: #737373;
+	border: none;
+	height: 35px;
+	width: 150px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: none;
+	}
+
+.button:hover {
+	color: black;
+	border: solid 1px;
+	border-color: #bfbfbf;
+	}
+
+#GoogleSearch {
+	float: left;
+	margin-left: 35%;
+	margin-top: 3%;
+	
+}
+
+#FeelingLucky {
+	float: right;
+	margin-top: 3%;
+	margin-right: 35%;
+}
+
+#bottom {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #edeff2;
+	color: #737373;
+	padding: 1%;
+	border: solid 1px;
+	border-color: #bfbfbf;
+}
+
+#bottomleft {
+	float: left;
+	margin-left: 0%;
+	word-spacing: 20px;
+}
+
+#bottomright {
+	float: right;
+	margin-right: 3%;
+	word-spacing: 20px;
+}
